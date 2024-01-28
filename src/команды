@@ -1,0 +1,10 @@
+pip freeze > requirements.txt - сохранить зависимости проекта
+pip freeze - показать зависимости
+pip install django - установить джанго
+django-admin startproject scraping_cervice . - старт проекта джанго
+python manage.py migrate - применить миграции
+python manage.py createsuperuser - создание администратора
+
+админ 
+odinokov
+097123
