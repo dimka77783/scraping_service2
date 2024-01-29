@@ -6,6 +6,8 @@ python manage.py makemigrations - получить миграции
 python manage.py migrate - применить миграции
 python manage.py createsuperuser - создание администратора
 python manage.py startapp scrapin - создание нового приложения
+python manage.py shell - интеракивная консоль джанго
+
 
 админ 
 odinokov
