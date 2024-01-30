@@ -7,13 +7,12 @@
             <div class="card-body">
                 <h4>{{ obj.company}}</h4>
                 <p class="card-text">{{ obj.description }}</p>
-                    <p>{{ obj.city.name }} | {{ obj.language.name }} | <small>{{ obj.timestamp| date:"d-m-Y" }}</small></p>
+                <p>{{ obj.city.name }} | {{ obj.language.name }} | <small>{{ obj.timestamp| date:"d-m-Y" }}</small></p>
             </div>
         </div>
     {% empty %}
-        <h3>К сожалению по авшему запросу ни чего ненайдено</h3>
+        <h3>К сожалению по вашему запросу ни чего ненайдено</h3>
     {% endfor %}
-
 
 <div class = "row ">
     <div class = "col-md-6 mx-auto">
