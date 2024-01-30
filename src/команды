@@ -7,8 +7,10 @@ python manage.py migrate - применить миграции
 python manage.py createsuperuser - создание администратора
 python manage.py startapp scrapin - создание нового приложения
 python manage.py shell - интеракивная консоль джанго
+python manage.py dumpdata --indent 2 scraping > scraping.json - копирование базы данных в json файл
+python manage.py loaddata scraping.json - вернуть данные из json  в базу данных
 
 
 админ 
-odinokov
+dimka77783@mail.ru
 097123
