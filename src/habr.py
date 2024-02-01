@@ -50,6 +50,6 @@ if url:
         errors.append({'url': url, 'title': 'Page do not response'})
 
 
-h = codecs.open('../work.txt', 'w', 'utf-8')
+h = codecs.open('../work3.txt', 'w', 'utf-8')
 h.write(str(jobs))
 h.close()
