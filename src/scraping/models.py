@@ -1,7 +1,7 @@
 from django.db import models
 
 from scraping.utils import from_cyrillic_to_eng
-
+from jsonfield import JSONField
 
 class City(models.Model):
     name = models.CharField(max_length=50, verbose_name='Название населенного пункта', unique=True)
@@ -54,3 +54,9 @@ class Vacancy(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Error(models.Model):
+    timestamp = models.DateField(auto_now_add=True)
+    data = JSONField()
+
