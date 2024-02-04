@@ -1,5 +1,5 @@
 from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
-from django.contrib.auth.models import UserManager
+
 from django.db import models
 
 class MyUserManager(BaseUserManager):
@@ -12,7 +12,7 @@ class MyUserManager(BaseUserManager):
             raise ValueError("Users must have an email address")
 
         user = self.model(
-            email=self.normalize_email(email),
+            email=self.normalize_email(email)
         )
 
         user.set_password(password)
@@ -31,6 +31,8 @@ class MyUserManager(BaseUserManager):
         user.is_admin = True
         user.save(using=self._db)
         return user
+
+
 class MyUser(AbstractBaseUser):
     email = models.EmailField(
         verbose_name="email address",

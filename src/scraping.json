@@ -16,6 +16,14 @@
   }
 },
 {
+  "model": "scraping.city",
+  "pk": 3,
+  "fields": {
+    "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
+    "slug": "moskva"
+  }
+},
+{
   "model": "scraping.language",
   "pk": 1,
   "fields": {
@@ -55,6 +63,873 @@
     "city": 2,
     "language": 1,
     "timestamp": "2024-01-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 48,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=836727&place=35&meta=UImtO8vegRRnU68VC9z97QV6EXvBUVKx8un4uLybydHsKp0IGI3CnbMoWEno4yjjJadlkKPbfPK2R88mPxF25ey54rfwfaO7Cy3qDOkjo5dI5KuUd1_trNqAWWdsxBUOqZ12nhyn_X71sQmnI_DKWvTyEeWV11UJObjG7VGTfL01-DYD2u0Gog5AzI3NL_SzK4AN7Aep1GYWdcPA1ThiFGpUB0U8pNY72yAXi6o3DqpDumktvKzRoFe57f94CrNtsk7xFW_QQXIiSR6xwOGwWhE75S3fhFPLXfYSRbJQFS5DU_VWvI3QJTUIHy52sV60AKaoQUdrdODWTAUcHEof30eP65mxWdPEYFQmYVLu-JHgs9h53ZtlKOxyVyPY2CZ51y8TSD6bL2nD5xUIfYDzpQTepPnYaprsXapSP75GA60ho0DM0oS4z7q2tS8hKoRagGXEFxnjaYgYLe_ELbCzCSc2XlqfEbofGyHvksbfWE9FXEyqc3oSXe5gKNx9cs4Ufee1W2monxS0iMHj2RIxQA%3D%3D&clickType=link_to_vacancy",
+    "title": "\u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c \u043a\u0440\u0443\u0436\u043a\u0430 - \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430 (Scratch, Roblox, Python), \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430",
+    "company": "\u0418\u041f\u00a0\u041a\u0440\u0430\u0441\u043d\u043e\u0441\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0412\u0430\u043b\u0435\u0440\u044c\u0435\u0432\u0438\u0447",
+    "description": "30\u202f000 \u2013 60\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 49,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=857950&place=36&meta=hTB4WaMVCwcZzVBj7BnpVfap83SuvPsGXGvlzyqY1WULI-EAQhRBLtU8lQTmbOGAlTg0zfVPUGLN5MGMwgLTiz7jJWreF69mlbi0jt0ZiumJecSE_F30qaaSae0jBe3X2Y4H1toG9QmwnfTim-mpXxYKMU_XWqvRxJ9TBiyfRWix5cSXuX5NWKRv4MSGtJPC_68yqy5L8AvbMNZmpmDlYzNs3SSdGAs0QrMcjSl6nRECaNrc4x48Upb1enDwJ_wwOY6rNFmDIjP5T4Sykkvm1CTnT52m1TNPr9i03EzCsMbCkREOmV8K6tW9ddCX0ypJqMbaS_hvUhGzEY7Ltqt8BCEzKgdGojM8P9AiBPmuivy_k7NlVaw1PP8nyJkz3y8s5LokUiVxvmK4x_FcOnNurT5KaWeZzfshJHWw9sPbNsDL8lNpl8fhhyOjH7yPUrz-iia459b0IdASU1OI7uEqcpWhNHFQAcHKVeGCdCsDGqqYKDSzY4UqHdLPVv13DdokwggqBTEWbwTLxVa0Rc1ODQ%3D%3D&clickType=link_to_vacancy",
+    "title": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442",
+    "company": "\u041e\u041e\u041e\u00a0\u041d\u0418\u041b \u0410\u041f",
+    "description": "55\u202f000 \u2013 120\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 50,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92548334?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440 Linux",
+    "company": "\u041e\u041e\u041e\u00a0HeadHunter::Infrastructure engineers",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 51,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92539448?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0414\u0430\u0442\u0430-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a Qlik",
+    "company": "\u0422\u041e\u041e\u00a0KazInSys",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 52,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/88594982?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle QA \u0438\u043d\u0436\u0435\u043d\u0435\u0440 \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u041a\u0430\u0440\u044c\u0435\u0440\u043d\u0430\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430",
+    "company": "\u041e\u041e\u041e\u00a0HeadHunter::QA",
+    "description": "\u043e\u0442 250\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 53,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/87724384?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u041d\u043e\u0447\u043d\u043e\u0439 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442 \u0441\u043b\u0443\u0436\u0431\u044b \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438 \u0441 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u0437\u043d\u0430\u043d\u0438\u044f\u043c\u0438 (\u0411\u0440\u0430\u0443\u0437\u0435\u0440)",
+    "company": "\u042f\u043d\u0434\u0435\u043a\u0441 \u041a\u0440\u0430\u0443\u0434",
+    "description": "\u043e\u0442 36\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 54,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90917648?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u0422\u0438\u0442\u0430\u043d",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 55,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92366174?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "CleanEngine",
+    "description": "\u0434\u043e 90\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 56,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91827329?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u0410\u041d\u041e \u0426\u0418\u0421\u041c",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 57,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91187726?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "Sapiens solutions",
+    "description": "250\u202f000 \u2013 350\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 58,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92085569?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "\u041e\u041e\u041e\u00a0Subtotal",
+    "description": "100\u202f000 \u2013 180\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 59,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92530630?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 Python",
+    "company": "\u0410\u041e\u00a0\u0418\u043d\u0444\u043e\u0422\u0435\u041a\u0421",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 60,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92351262?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer",
+    "company": "Trumo Finance Oy",
+    "description": "1\u202f000\u202f000 \u2013 3\u202f000\u202f000 \u20b8",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 61,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92351263?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer",
+    "company": "Trumo Finance Oy",
+    "description": "1\u202f000\u202f000 \u2013 3\u202f000\u202f000 \u20b8",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 62,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92351264?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer",
+    "company": "Trumo Finance Oy",
+    "description": "1\u202f000\u202f000 \u2013 3\u202f000\u202f000 \u20b8",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 63,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/72687504?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Python developer",
+    "company": "\u041e\u041e\u041e\u00a0\u0421\u0435\u043b\u0444\u0441\u0435\u043a",
+    "description": "150\u202f000 \u2013 200\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 64,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92547113?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Python developer",
+    "company": "\u041e\u041e\u041e\u00a0\u041b\u0418\u0413\u0420\u0415\u0421",
+    "description": "\u043e\u0442 100\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 65,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92547040?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python (Support)",
+    "company": "\u041e\u041e\u041e\u00a0\u041b\u0418\u0413\u0420\u0415\u0421",
+    "description": "\u043e\u0442 70\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 66,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90992863?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "\u041e\u041e\u041e\u00a0\u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u041f\u0430\u0440\u0443\u0441",
+    "description": "50\u202f000 \u2013 75\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 67,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/87495327?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "\u0422\u0438\u043d\u044c\u043a\u043e\u0444\u0444",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 68,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132498",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u041e\u043d\u043b\u0430\u0439\u043d-\u043a\u0438\u043d\u043e\u0442\u0435\u0430\u0442\u0440 \u0418\u0432\u0438",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 69,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130834",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 70,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134911",
+    "title": "Python Developer",
+    "company": "Sitronics Group",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 71,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000124985",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "Smart Seller",
+    "description": "\u0434\u043e 250 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 72,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000129479",
+    "title": "Python Developer",
+    "company": "\u041b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0438\u044f \u041a\u0430\u0441\u043f\u0435\u0440\u0441\u043a\u043e\u0433\u043e",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 73,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130813",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 74,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000124873",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "\u0418\u043d\u0444\u043e\u0422\u0435\u041a\u0421",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 75,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000119842",
+    "title": "Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "VK",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 76,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134839",
+    "title": "Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0414\u0432\u043e\u0440",
+    "description": "\u043e\u0442 120 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 77,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136838",
+    "title": " Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "Sapiens solutions",
+    "description": "\u043e\u0442 250 000 \u0434\u043e 350 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 78,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137337",
+    "title": "Python Developer",
+    "company": "Go Ahead",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 79,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000121815",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "\u0418\u043d\u0444\u043e\u0422\u0435\u041a\u0421",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 80,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130814",
+    "title": "QA Automation (Python)",
+    "company": "Okko",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 81,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136496",
+    "title": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 Python ",
+    "company": "Strikt",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 82,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137359",
+    "title": "Python Developer",
+    "company": "Greenwich",
+    "description": "\u0434\u043e 150 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 83,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127158",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 84,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000126123",
+    "title": "Senior Python (Django) Developer",
+    "company": "\u0413\u0440\u0443\u043f\u043f\u0430 \u00ab\u0421\u0430\u043c\u043e\u043b\u0435\u0442\u00bb",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 85,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136679",
+    "title": "Python Developer",
+    "company": "eLama\ufeff",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 86,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136079",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 87,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136801",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u0421\u0431\u0435\u0440\u041c\u0435\u0434\u0418\u0418",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 88,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000074903",
+    "title": "Senior Python developer",
+    "company": "\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0422\u0440\u043e\u0439\u043a\u0430",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 89,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137166",
+    "title": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "RuDesktop",
+    "description": "\u0434\u043e 3 000 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 90,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136386",
+    "title": "Backend \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Middle  (Python)",
+    "company": "Bitbanker.ru",
+    "description": "\u043e\u0442 300 000 \u0434\u043e 350 000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 91,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000129822",
+    "title": "Python Techlead ",
+    "company": "GRI",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 92,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137257",
+    "title": "Middle Python developer",
+    "company": "\u041c\u0430\u0433\u043d\u0438\u0442",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-01"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 93,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=864920&place=35&meta=hiC8oJrsDQqqeTEvHw7sb-IQMuLAb5s0Bo1m2lTo9IXIeAuU0fD6kLB5xxh_XfM0oVGV0mgvTbEZjf7TuVOjLo4VEIza5KffEJ4qWLOnb3IodgXSqmAvXDFTihj627RI9Pco0bNhq7gB0s5Hk0jiQJpww3rhyZk6-BiHVcuLtjLmzD7HqQejYPhrXMDIHRPNncGqWFZpnMTTBZF0lC7nGqrZQaXhC9SI9wYViqX7Mn-l9yznxvR97JkdsqOnfrciGAHw5-VXpomLGMN8UM9WRl5GsA5NBpxM6XBD2bM73RNMRO5hE5iOVRqPAgF01PUcnmbusP_x33D9BwP-PLny4fpq195z8P1E35zyxr6Czt0uZPKGNCFR1SRpTIbTPzbdIUsquv6OJDfqKMhwLttpJIyrKBFdI4nBonq9DeLMI5-H18Ly9j7lmNbm3f2DWJ-gdiG3ePbW204T4t5KO7iBWnSGhlOLTnEelTp9lmhkMJOtJPhfxY7ujHsUVQ5cpLHwVf5dhab0gz2RCS-8kh-GrA%3D%3D&clickType=link_to_vacancy",
+    "title": "Python/Go \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u041e\u041e\u041e\u00a0\u0411\u0438\u0437\u043d\u0435\u0441 \u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442",
+    "description": "90\u202f000 \u2013 140\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 94,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=863784&place=36&meta=hT4g7gMkGo9hJKKYqBgGT05jqlmVE4ZB8bpvTcz9_iK-NYn3k5YV_qLrQ3acpL8BDiZ1FvZXxR7I1pwY6zJU-jJW9brycdRewcRUptA71fWKZLjst5FpU1UMGyJOa-GisNGIGUVUv148g7ME30i8iENAk1f0KnGZNtETXdnXOpehZosbsAlfn217u66pAqtvwAf97DX9EwuUnjCanGk5ye3NnXvVnBuepreUTmGCpONRKrcrdqB3LQ0FtzQxo2tjuonlKfLl9xfhcTXrLspHDPiN-vSI3HQv7VpK4WGMdk9Y2Rd3d3pPEv3vorlgs6TSjBNusfU9YbXaskxzSFqaXozW_LVYweecuOa7xSJxcCZATPxFO2qquUljBAd1J-Pyv3lh5vU7JGnRjrszBPzoo2JxdK3Cx8-EKCHDNxieB5uVCPssqOgr_KFMsEC62gRd4Xg4Unjagx6qjZDWuSDCXSMwUctLV2ONQYrJC8eUjMhcH72W-fOD_31t5P6HN6BDiwJcYicG6th4M_kuPtjlkw%3D%3D&clickType=link_to_vacancy",
+    "title": "\u0420\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440 \u043f\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e Python \u0438 Scratch (6-11 \u043a\u043b\u0430\u0441\u0441\u044b)",
+    "company": "\u041e\u041e\u041e\u00a0\u041e\u043d\u043b\u0430\u0439\u043d-\u0448\u043a\u043e\u043b\u0430 \u0424\u043e\u043a\u0441\u0444\u043e\u0440\u0434",
+    "description": "\u0434\u043e 50\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 95,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91270231?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "INFOWATCH",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 96,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91583700?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer",
+    "company": "\u0418\u041f\u00a0\u0411\u0435\u0440\u0435\u0436\u043d\u0430\u044f \u041a\u0440\u0438\u0441\u0442\u0438\u043d\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 97,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/88535916?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Engineer",
+    "company": "SteadyControl",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 98,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90379673?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Senior Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "Simple Company",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 99,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92503341?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f Python",
+    "company": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f Top",
+    "description": "10\u202f000 \u2013 120\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 100,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91231676?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer/ C++",
+    "company": "\u041e\u041e\u041e\u00a0\u041b\u0410\u0426\u0418\u0422 - \u041b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0438\u044f \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 101,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91230522?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0418\u043d\u0436\u0435\u043d\u0435\u0440-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 Python",
+    "company": "\u041e\u041e\u041e\u00a0\u041b\u0410\u0426\u0418\u0422 - \u041b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0438\u044f \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 102,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92509784?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA auto engineer(Python)",
+    "company": "Data World",
+    "description": "170\u202f000 \u2013 230\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 103,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92323149?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 / \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "Carbon Soft",
+    "description": "200\u202f000 \u2013 350\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 104,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91297724?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Go/Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "JetStyle",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 105,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92066990?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior Fullstack \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a (php/python/js)",
+    "company": "\u041e\u041e\u041e\u00a0\u0420\u0430\u0439\u0442 \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0441",
+    "description": "60\u202f000 \u2013 80\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 106,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92245370?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a (\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430 \u0434\u0430\u043d\u043d\u044b\u0445)",
+    "company": "\u0410\u041d\u041e \u0410\u0426\u0413",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 107,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92333181?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python (FastAPI, MySQL, Clickhouse), \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e",
+    "company": "\u041e\u041e\u041e\u00a0\u0418\u041d\u0422\u0415\u0425",
+    "description": "\u043e\u0442 250\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 108,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91764768?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior \u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442/\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Python",
+    "company": "\u041e\u041e\u041e\u00a0\u0422\u0435\u043b\u0435\u043a\u043e\u043c-\u0418\u043d\u0436\u0438\u043d\u0438\u0440\u0438\u043d\u0433",
+    "description": "\u043e\u0442 60\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 109,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91405934?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python \u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "Quiet Media",
+    "description": "\u0434\u043e 300\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 110,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92478871?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "\u0418\u041f\u00a0\u0417\u0443\u0431\u0447\u0435\u043d\u043a\u043e \u0412\u0435\u0440\u043e\u043d\u0438\u043a\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430",
+    "description": "180\u202f000 \u2013 230\u202f000 \u20bd",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 111,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92478411?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "ARK",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 112,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90285341?query=python&hhtmFrom=vacancy_search_list",
+    "title": "\u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a (Python)",
+    "company": "ORO",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 113,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136951",
+    "title": "QA Automation Engineer (Python)",
+    "company": "\u0421\u0431\u0435\u0440\u0422\u0435\u0445",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 2,
+    "language": 1,
+    "url_data": "{\"work_hh\": \"https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1\", \"work_habr\": \"https://career.habr.com/vacancies?q=python&l=1&type=all\"}"
   }
 }
 ]

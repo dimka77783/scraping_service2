@@ -19,11 +19,10 @@ headers = [
            ]
 
 
-def work_hh(url):
+def work_hh(url,city=None, language=None):
     jobs = []
     errors = []
-    #domain = 'https://hh.ru'
-    url = 'https://stary-oskol.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&text=python'
+    domain = 'https://hh.ru'
     if url:
         resp = requests.get(url, headers=headers[randint(0, 4)])
         if resp.status_code == 200:
@@ -48,7 +47,7 @@ def work_hh(url):
                         company = company
 
 
-                    jobs.append({'title': title.text, 'url': href, 'description': content, 'company': company})
+                    jobs.append({'title': title.text, 'url': href, 'description': content, 'company': company, 'city_id': city, 'language_id': language})
             else:
                 errors.append({'url': url, 'title': 'Div does not exists'})
 
@@ -56,7 +55,8 @@ def work_hh(url):
             errors.append({'url': url, 'title': 'Page do not response'})
     return jobs, errors
 
-def work_habr(url):
+
+def work_habr(url, city=None, language=None):
     jobs = []
     errors = []
     domain = 'https://career.habr.com'
@@ -83,7 +83,7 @@ def work_habr(url):
                         company = company.text
 
 
-                    jobs.append({'title': title, 'url': domain + href, 'description': content2, 'company': company})
+                    jobs.append({'title': title, 'url': domain + href, 'description': content2, 'company': company, 'city_id': city, 'language_id': language})
             else:
                 errors.append({'url': url, 'title': 'Table does not exists'})
         else:

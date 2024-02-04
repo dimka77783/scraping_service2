@@ -1,6 +1,8 @@
 
 import codecs
 import os, sys
+
+from django.contrib.auth import get_user_model
 from django.db import DatabaseError
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
@@ -14,27 +16,62 @@ django.setup()
 
 from scraping.parsers import *
 
-from scraping.models import Vacancy, City, Language, Error
+from scraping.models import Vacancy, City, Language, Error, Url
+
+
+User = get_user_model()
 
 parsers = (
-    (work_hh, 'https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1'),
-    (work_habr, 'https://career.habr.com/vacancies?q=python&l=1&type=all')
+    (work_hh, 'work_hh'),
+    (work_habr, 'work_habr')
 )
 
+#parsers = (
+#    (work_hh, 'https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1'),
+#   (work_habr, 'https://career.habr.com/vacancies?q=python&l=1&type=all')
+#)
 
 
-city = City.objects.filter(slug='belgorod').first()
-language = Language.objects.filter(slug='python').first()
+
+
+
+
+def get_settings():
+    qs = User.objects.filter(send_email=True).values()
+    settings_lst = set((q['city_id'], q['language_id'])for q in qs)
+    return settings_lst
+
+
+def get_urls(_settings):
+    qs = Url.objects.all().values()
+    url_dct = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
+    urls = []
+    for pair in _settings:
+        tmp = {}
+        tmp['city'] = pair[0]
+        tmp['language'] = pair[1]
+        tmp['url_data'] = url_dct[pair]
+        urls.append(tmp)
+    return urls
+
+
+setting = get_settings()
+url_list = get_urls(setting)
+
+#city = City.objects.filter(slug='belgorod').first()
+#language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
+for data in url_list:
 
-for func, url in parsers:
-    j, e = func(url)
-    jobs += j
-    errors += e
+    for func, key in parsers:
+        url = data['url_data'][key]
+        j, e = func(url, city=data['city'], language=data['language'])
+        jobs += j
+        errors += e
 
 for job in jobs:
-    v = Vacancy(**job, city=city, language=language)
+    v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:
