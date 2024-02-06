@@ -14,3 +14,9 @@ python manage.py loaddata scraping.json - вернуть данные из json 
 админ 
 dimka77783@mail.ru
 097123
+
+
+{
+    "work_hh": "https://hh.ru/search/vacancy?from=suggest_post&ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&L_save_area=true&customDomain=1&area=1&text=Java",
+    "work_habr": "https://career.habr.com/vacancies?locations[]=c_678&skills[]=1012&type=all"
+}
