@@ -127,12 +127,13 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = "accounts.MyUser"
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
+#ALLOWED_HOSTS = ["192.168.3.45"]
 EMAIL_HOST = 'smtp.yandex.ru'
 
 EMAIL_PORT = 465
-#EMAIL_USE_TLS = True
+EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
 
@@ -141,5 +142,4 @@ EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 SERVER_EMAIL = EMAIL_HOST_USER
-
 EMAIL_ADMIN = EMAIL_HOST_USER
