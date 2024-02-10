@@ -23,16 +23,23 @@
 
 <div class = "row my-5">
     <div class = "col-md-8 mx-auto">
-        <p class="my-2">Если Вы не нашли подходящий набор Город, Специальность, Вы можете заполнить форму ниже с вашими пожеланиями. После того как необходимые данные будут добавленны вы получите писмьмо на указанный вами и-майл</p>
-    <form method="POST" action="{% url 'accounts:contact' %}"> {% csrf_token %}
-        <div class="form-group">
-        {{ contact_form.as_p }}
-        </div>
-        <button type="submit" class="btn btn-primary">Отправить</button>
-    </form>
-
-    </div>
-
-</div>
+        <p class="my-2">Если Вы не нашли подходящий набор Город, Специальность,
+            Вы можете заполнить форму ниже с вашими пожеланиями. После того как необходимые
+            данные будут добавленны вы получите писмьмо на указанный вами и-майл</p>
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed" aria-expanded="false" aria-controls="collapsed">
+            показать форму
+            </button>
+        </p>
+            <div class="collapse" id="collapsed">
+                <div class="card card-body">
+                    <form method="POST" action="{% url 'accounts:contact' %}"> {% csrf_token %}
+                        <div class="form-group">
+                        {{ contact_form.as_p }}
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                 </div>
+            </div>
 
 {% endblock %}
