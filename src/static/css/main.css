@@ -1,0 +1,8 @@
+@font-face {
+font-famaly:Modak-Regular;
+src:url (../fonts/Modak-Regular.ttf);
+}
+#brand{
+font-famaly:Modak-Regular;
+color: #F08;
+}
