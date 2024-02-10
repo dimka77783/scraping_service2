@@ -1,6 +1,7 @@
 
 import codecs
 import os, sys
+import datetime as dt
 import asyncio
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
@@ -47,11 +48,12 @@ def get_urls(_settings):
     url_dct = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
     urls = []
     for pair in _settings:
-        tmp = {}
-        tmp['city'] = pair[0]
-        tmp['language'] = pair[1]
-        tmp['url_data'] = url_dct[pair]
-        urls.append(tmp)
+        if pair in url_dct:
+            tmp = {}
+            tmp['city'] = pair[0]
+            tmp['language'] = pair[1]
+            tmp['url_data'] = url_dct[pair]
+            urls.append(tmp)
     return urls
 
 async def main(value):
@@ -93,9 +95,18 @@ for job in jobs:
     except DatabaseError:
         pass
 if errors:
-    er = Error(data=errors).save()
+    qs = Error.objects.filter(timestamp=dt.date.today())
+    if qs.exists():
+        err = qs.first()
+        err.data.update({'errors':errors})
+        err.save()
+    else:
+        er = Error(data=f'errors{errors}').save()
 
 
 #h = codecs.open('../work2.txt', 'w', 'utf-8')
 #h.write(str(jobs))
 #h.close()
+
+ten_days_ago = dt.date.today() - dt.timedelta(10)
+Vacancy.objects.filter(timestamp__lte=ten_days_ago).delite()

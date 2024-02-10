@@ -127,7 +127,7 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = "accounts.MyUser"
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 #ALLOWED_HOSTS = ["192.168.3.45"]
 EMAIL_HOST = 'smtp.yandex.ru'
