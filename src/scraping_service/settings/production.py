@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'scraping_service.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': DB_NAME,
-        'USER': DB_USER,
-        'PASSWORD': DB_PASSWORD,
-        'HOST': DB_HOST,
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'default_db',
+        'USER': 'gen_user',
+        'PASSWORD': 'zOC@vQ8=vPt(2m',
+        'HOST': '94.241.138.235',
         'PORT': '5432',
     }
 }
