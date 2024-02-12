@@ -90,6 +90,7 @@ WSGI_APPLICATION = 'scraping_service.wsgi.application'
 
 DATABASES = {
     'default': {
+
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'default_db',
         'USER': 'gen_user',
@@ -98,7 +99,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+#sql "postgresql://gen_user:zOC%40vQ8%3DvPt(2m@94.241.138.235:5432/default_db"
 db =dj_database_url.config()
 DATABASES['default'].update(db)
 
