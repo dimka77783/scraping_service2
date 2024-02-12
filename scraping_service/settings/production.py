@@ -32,12 +32,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6l1dz@)3pb%eeuitbym*0bh%m-s1fgaevqj0d+-4#)m4jw)r*9'
-
+#SECRET_KEY = '6l1dz@)3pb%eeuitbym*0bh%m-s1fgaevqj0d+-4#)m4jw)r*9'
+SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["2531032-yo82697.twc1.net"]
 
 
 # Application definition
@@ -90,11 +90,12 @@ WSGI_APPLICATION = 'scraping_service.wsgi.application'
 
 DATABASES = {
     'default': {
+
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'default_db',
-        'USER': 'gen_user',
-        'PASSWORD': 'zOC@vQ8=vPt(2m',
-        'HOST': '94.241.138.235',
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
         'PORT': '5432',
     }
 }
