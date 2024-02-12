@@ -1,0 +1,2801 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-02-04T17:10:33.934Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "dimka77783@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-02-04T17:10:56.991Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "odinokov@mail.ru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-02-04T17:11:05.165Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "odinokov@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-02-04T17:34:20.446Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "dimka77783@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-02-04T17:50:37.634Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "dimka77783@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-02-04T17:53:13.485Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "odinokov@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-02-05T17:35:55.534Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "zx4@mail.ru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-02-05T17:36:03.765Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "zx4@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-02-05T17:40:49.941Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Url object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-02-06T16:38:51.259Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Url object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-02-06T16:38:55.304Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-02-06T16:39:14.370Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "185",
+    "object_repr": "Developer Java Oracle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-02-06T16:47:57.250Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Url object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-02-06T16:49:12.166Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Url object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-02-06T16:49:21.563Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-02-07T17:33:57.793Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-02-10T16:03:11.979Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-02-10T16:03:18.726Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-02-10T16:15:13.996Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-02-10T16:15:31.035Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "zx3@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-02-10T17:08:17.077Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2024-02-10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-02-10T18:37:41.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2024-02-10",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Название населенного пункта",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Название населенного пункта",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Название населенного пункта",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Название населенного пункта",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add error",
+    "content_type": 7,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change error",
+    "content_type": 7,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete error",
+    "content_type": 7,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view error",
+    "content_type": 7,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Язык програмирования",
+    "content_type": 8,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Язык програмирования",
+    "content_type": 8,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Язык програмирования",
+    "content_type": 8,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Язык програмирования",
+    "content_type": 8,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 9,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 9,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 9,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 9,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 10,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 10,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 10,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 10,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 11,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 11,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 11,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 11,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sxmcbg2r0ew4gafil1tt80wuaq8qej1i",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHQskA9eu83kGXZStVAUtqT8d9tkx40mdO8N_MWAbc1h63xEuYkrkKLy28XkZ5cDpAeWO5VUi3rMkd5KPKkTY418et2un8HGVve18q4LtrOEqMmgKiRlLKJlTdsaAJwUyRAi3qgZM0eTkPvwXgAYteLzxfo2TgB:1rZFvO:vB0_wXcp3u3FKdg05453Ci64fF_09x_YyVqQFneRUd0",
+    "expire_date": "2024-02-25T19:55:38.521Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uwstswmzpxbaxi0f9km36x329q2efsmn",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHQskA9eu83kGXZStVAUtqT8d9tkx40mdO8N_MWAbc1h63xEuYkrkKLy28XkZ5cDpAeWO5VUi3rMkd5KPKkTY418et2un8HGVve18q4LtrOEqMmgKiRlLKJlTdsaAJwUyRAi3qgZM0eTkPvwXgAYteLzxfo2TgB:1rXOT1:dyjZxGcXC2myHwR7_9J7JiXz7BZIP5TOCNYd2SqDKuI",
+    "expire_date": "2024-02-20T16:38:39.265Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Старый Оскол",
+    "slug": "staryy_oskol"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Белгород",
+    "slug": "belgorod"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 3,
+  "fields": {
+    "name": "Москва",
+    "slug": "moskva"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 93,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=864920&place=35&meta=hiC8oJrsDQqqeTEvHw7sb-IQMuLAb5s0Bo1m2lTo9IXIeAuU0fD6kLB5xxh_XfM0oVGV0mgvTbEZjf7TuVOjLo4VEIza5KffEJ4qWLOnb3IodgXSqmAvXDFTihj627RI9Pco0bNhq7gB0s5Hk0jiQJpww3rhyZk6-BiHVcuLtjLmzD7HqQejYPhrXMDIHRPNncGqWFZpnMTTBZF0lC7nGqrZQaXhC9SI9wYViqX7Mn-l9yznxvR97JkdsqOnfrciGAHw5-VXpomLGMN8UM9WRl5GsA5NBpxM6XBD2bM73RNMRO5hE5iOVRqPAgF01PUcnmbusP_x33D9BwP-PLny4fpq195z8P1E35zyxr6Czt0uZPKGNCFR1SRpTIbTPzbdIUsquv6OJDfqKMhwLttpJIyrKBFdI4nBonq9DeLMI5-H18Ly9j7lmNbm3f2DWJ-gdiG3ePbW204T4t5KO7iBWnSGhlOLTnEelTp9lmhkMJOtJPhfxY7ujHsUVQ5cpLHwVf5dhab0gz2RCS-8kh-GrA%3D%3D&clickType=link_to_vacancy",
+    "title": "Python/Go разработчик",
+    "company": "ООО Бизнес Интеллект",
+    "description": "90 000 – 140 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 94,
+  "fields": {
+    "url": "https://adsrv.hh.ru/click?b=863784&place=36&meta=hT4g7gMkGo9hJKKYqBgGT05jqlmVE4ZB8bpvTcz9_iK-NYn3k5YV_qLrQ3acpL8BDiZ1FvZXxR7I1pwY6zJU-jJW9brycdRewcRUptA71fWKZLjst5FpU1UMGyJOa-GisNGIGUVUv148g7ME30i8iENAk1f0KnGZNtETXdnXOpehZosbsAlfn217u66pAqtvwAf97DX9EwuUnjCanGk5ye3NnXvVnBuepreUTmGCpONRKrcrdqB3LQ0FtzQxo2tjuonlKfLl9xfhcTXrLspHDPiN-vSI3HQv7VpK4WGMdk9Y2Rd3d3pPEv3vorlgs6TSjBNusfU9YbXaskxzSFqaXozW_LVYweecuOa7xSJxcCZATPxFO2qquUljBAd1J-Pyv3lh5vU7JGnRjrszBPzoo2JxdK3Cx8-EKCHDNxieB5uVCPssqOgr_KFMsEC62gRd4Xg4Unjagx6qjZDWuSDCXSMwUctLV2ONQYrJC8eUjMhcH72W-fOD_31t5P6HN6BDiwJcYicG6th4M_kuPtjlkw%3D%3D&clickType=link_to_vacancy",
+    "title": "Репетитор по программированию Python и Scratch (6-11 классы)",
+    "company": "ООО Онлайн-школа Фоксфорд",
+    "description": "до 50 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 95,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91270231?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "INFOWATCH",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 96,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91583700?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer",
+    "company": "ИП Бережная Кристина Васильевна",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 97,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/88535916?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Engineer",
+    "company": "SteadyControl",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 98,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90379673?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Senior Python разработчик",
+    "company": "Simple Company",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 99,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92503341?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Преподаватель программирования Python",
+    "company": "Компьютерная Академия Top",
+    "description": "10 000 – 120 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 100,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91231676?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Developer/ C++",
+    "company": "ООО ЛАЦИТ - Лаборатория цифровых технологий",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 101,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91230522?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Инженер-программист Python",
+    "company": "ООО ЛАЦИТ - Лаборатория цифровых технологий",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 102,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92509784?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA auto engineer(Python)",
+    "company": "Data World",
+    "description": "170 000 – 230 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 103,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92323149?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Системный программист / разработчик Python",
+    "company": "Carbon Soft",
+    "description": "200 000 – 350 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 104,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91297724?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Go/Python-разработчик",
+    "company": "JetStyle",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 105,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92066990?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior Fullstack разработчик (php/python/js)",
+    "company": "ООО Райт Электроникс",
+    "description": "60 000 – 80 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 106,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92245370?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior Python-разработчик (Аналитика данных)",
+    "company": "АНО АЦГ",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 107,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92333181?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Разработчик Python (FastAPI, MySQL, Clickhouse), удаленно",
+    "company": "ООО ИНТЕХ",
+    "description": "от 250 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 108,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91764768?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Junior Программист/Разработчик Python",
+    "company": "ООО Телеком-Инжиниринг",
+    "description": "от 60 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 109,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/91405934?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Разработчик",
+    "company": "Quiet Media",
+    "description": "до 300 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 110,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92478871?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python разработчик",
+    "company": "ИП Зубченко Вероника Сергеевна",
+    "description": "180 000 – 230 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 111,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/92478411?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python developer",
+    "company": "ARK",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 112,
+  "fields": {
+    "url": "https://stary-oskol.hh.ru/vacancy/90285341?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Разработчик (Python)",
+    "company": "ORO",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 113,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136951",
+    "title": "QA Automation Engineer (Python)",
+    "company": "СберТех",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 114,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92531537?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Middle Backend developer",
+    "company": "Алабуга. Human Resources ",
+    "description": "200 000 – 300 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 115,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92531240?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Python Middle Backend developer",
+    "company": "Алабуга. Human Resources ",
+    "description": "250 000 – 300 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 116,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92212842?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Backend-разработчик (Python)",
+    "company": "Алабуга. IT-Разработка игр",
+    "description": "от 200 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 117,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92212523?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle Backend-разработчик (Python)",
+    "company": "Алабуга. IT-Разработка игр",
+    "description": "от 200 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 118,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/91805825?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Преподаватель IT направления",
+    "company": "Компьютерная Академия Top",
+    "description": "30 000 – 50 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 119,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92592192?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "Тинькофф",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 120,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/89998051?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Руководитель ИТ-отдела (г. Белгород)",
+    "company": "Школа 21",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 121,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92525443?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Ведущий системный администратор Linux",
+    "company": "ООО Айсвуд",
+    "description": "до 150 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 122,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/91378300?query=python&hhtmFrom=vacancy_search_list",
+    "title": "DevOps Engineer",
+    "company": "АО Квадра",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 123,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/91735123?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Middle PHP-developer",
+    "company": "SoftGamings",
+    "description": "от 150 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 124,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92503668?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Ведущий специалист по защите информации",
+    "company": "ООО «РУСАГРО», Группа компаний",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 125,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/89595866?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Главный аналитик",
+    "company": "Областное государственное Казённое учреждение Ситуационный Центр",
+    "description": "от 55 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 126,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/89595712?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Аналитик",
+    "company": "Областное государственное Казённое учреждение Ситуационный Центр",
+    "description": "от 50 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 127,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/89595903?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Начальник аналитического отдела",
+    "company": "Областное государственное Казённое учреждение Ситуационный Центр",
+    "description": "от 75 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 128,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92252860?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Старший специалист недвижимости и развития",
+    "company": "Сбер для экспертов",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 129,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92039306?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA наставник",
+    "company": "Таранюк Виталий Геннадьевич",
+    "description": "42 000 – 90 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 130,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92104586?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Data Scientist (Middle) в Южно-Сахалинск",
+    "company": "Сахалин - Остров Возможностей",
+    "description": "152 000 – 152 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 131,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92057033?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Ведущий программист в отдел разработки производственных систем CSB",
+    "company": "ООО Агропромкомплектация",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 132,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/90316078?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Программист",
+    "company": "Мираторг, Агропромышленный холдинг",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 133,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/91727134?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Системный инженер (DevOps-инженер)",
+    "company": "ООО Энтерсофт",
+    "description": "No price",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 134,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132638",
+    "title": "Python разработчик",
+    "company": "Programming Store",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 135,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137390",
+    "title": "Python разработчик (Middle/Senior)",
+    "company": "Солар",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 136,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/91536092?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA аutomation / Наставник по автотестированию (Java)",
+    "company": "Таранюк Виталий Геннадьевич",
+    "description": "42 000 – 84 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 137,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137737",
+    "title": "Python Разработчик",
+    "company": "RedLab",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 138,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000131608",
+    "title": "Старший разработчик Python (СУБД)",
+    "company": "ГК Астра",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 139,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127961",
+    "title": "Python developer / Разработчик Python (KORNFELD)",
+    "company": "YADRO",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 140,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127613",
+    "title": "Python developer / Разработчик Python (KORNFELD)",
+    "company": "YADRO",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 141,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000133754",
+    "title": "Java-разработчик в команду биллинга Маркета",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 142,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130994",
+    "title": "Архитектор омниканальной платформы",
+    "company": "Банк ВТБ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 143,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136806",
+    "title": "Технический руководитель стрима",
+    "company": "МТС",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 144,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000109182",
+    "title": "Teamlead Kotlin/Java",
+    "company": "ТЕЛЕМАТИКА",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 145,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137716",
+    "title": "Java разработчик Middle/Middle+",
+    "company": "Right Line",
+    "description": "от 200 000 до 250 000 ₽",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 146,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137242",
+    "title": "Java разработчик ",
+    "company": "СберТех",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 147,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134731",
+    "title": "QA-инженер (mobile)",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 148,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134730",
+    "title": "QA-инженер (mobile)",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 149,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132504",
+    "title": "Java-разработчик в Программу лояльности",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 150,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135353",
+    "title": "Инженер по автоматизации тестирования в Системы сертификации эмиссии",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 151,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135357",
+    "title": "Инженер по автоматизации тестирования в Клиринг",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 152,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134862",
+    "title": "Android разработчик в видеоплатформу Яндекса",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 153,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136775",
+    "title": "Руководитель дата аналитики",
+    "company": "ДИТ г. Москвы",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 154,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135864",
+    "title": "Bitrix-разработчик",
+    "company": "ГК «ФСК»",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 155,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135567",
+    "title": "Java Team Lead",
+    "company": "ДИТ г. Москвы",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 156,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137666",
+    "title": "Junior QA Automation",
+    "company": "ЛАНИТ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 157,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134368",
+    "title": "Senior Java разработчик (команда Marlin)",
+    "company": "ВСК",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 158,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137152",
+    "title": "SRE-инженер",
+    "company": "СберТех",
+    "description": "до 300 000 ₽",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 159,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137185",
+    "title": "QA Auto",
+    "company": "СберТех",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 160,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137182",
+    "title": "Java-разработчик",
+    "company": "СберТех",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 161,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135791",
+    "title": "Java Lead",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 162,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137633",
+    "title": "QA automation engineer Java (middle/middle+)",
+    "company": "Right Line",
+    "description": "от 250 000 ₽",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 163,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135256",
+    "title": "Java-разработчик",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 164,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135206",
+    "title": "Разработчик Oracle/Postgre",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 165,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000133261",
+    "title": "Разработчик на Java в Маркет",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 166,
+  "fields": {
+    "url": "https://hh.ru/vacancy/91329507?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java TechLead",
+    "company": "Сбер для экспертов",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 167,
+  "fields": {
+    "url": "https://hh.ru/vacancy/91562075?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Разработчик Java",
+    "company": "585, Холдинг",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 168,
+  "fields": {
+    "url": "https://hh.ru/vacancy/87786236?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java разработчик",
+    "company": "ООО Т1",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 169,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92705471?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java Developer/Java Разработчик",
+    "company": "Aston",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 170,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92721345?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Senior Java Разработчик",
+    "company": "ЗАО 1С",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 171,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92721373?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Senior Java - разработчик",
+    "company": "ЗАО 1С",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 172,
+  "fields": {
+    "url": "https://hh.ru/vacancy/90733535?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java Team Lead",
+    "company": "ООО ФК Гранд Капитал",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 173,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92701398?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java-разработчик",
+    "company": "Лига Цифровой Экономики",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 174,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92697916?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java-разработчик",
+    "company": "Компания «Мария». Вакансии в офисе",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 175,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92696412?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java Developer",
+    "company": "Домклик",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 176,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92407511?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Программист Java",
+    "company": "FunBox",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 177,
+  "fields": {
+    "url": "https://hh.ru/vacancy/90501900?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java-разработчик",
+    "company": "Лига Цифровой Экономики",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 178,
+  "fields": {
+    "url": "https://hh.ru/vacancy/91973528?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Senior Java Developer",
+    "company": "Datanomica",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 179,
+  "fields": {
+    "url": "https://hh.ru/vacancy/91873345?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java developer",
+    "company": "НТР",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 180,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92691784?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java Developer",
+    "company": "ООО АйДи – Технологии управления",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 181,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92691321?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java Developer",
+    "company": "Лига Цифровой Экономики",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 182,
+  "fields": {
+    "url": "https://hh.ru/vacancy/91891435?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java develoepr",
+    "company": "Лига Цифровой Экономики",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 183,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92717202?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java tech-lead",
+    "company": "Сбер для экспертов",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 184,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92689369?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Java-разработчик",
+    "company": "Selecty",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 185,
+  "fields": {
+    "url": "https://hh.ru/vacancy/92717269?query=Java&hhtmFrom=vacancy_search_list",
+    "title": "Developer Java Oracle",
+    "company": "Национальный расчетный депозитарий",
+    "description": "No price",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-05"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 186,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137946",
+    "title": "Senior Python-разработчик (команда PaaS)",
+    "company": "СберМаркет Tech",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 187,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127299",
+    "title": "Java разработчик (группа разработки API), Одноклассники",
+    "company": "VK",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 188,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127306",
+    "title": "Ведущий Java разработчик / Team Lead (“Музыка”) в Одноклассники",
+    "company": "VK",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 189,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134302",
+    "title": "SDET / QA Automation Engineer на платформу Android",
+    "company": "VK",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 190,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000120355",
+    "title": "Тестировщик",
+    "company": "ЛАНИТ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 191,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132358",
+    "title": "Data engineer",
+    "company": "АО «ГНИВЦ»",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 192,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136899",
+    "title": "Java/Kotlin-разработчик в Систему быстрых платежей",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 193,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130849",
+    "title": "BigData инженер-разработчик",
+    "company": "АО «ГНИВЦ»",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 194,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000128623",
+    "title": "Системный архитектор ПО",
+    "company": "АО «ГНИВЦ»",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 195,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000133727",
+    "title": "Инженер по автоматизации тестирования в Систему быстрых платежей",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 196,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136523",
+    "title": "QA Auto Java (middle/senior)",
+    "company": "Selecty",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 197,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132480",
+    "title": "DevOps-инженер в СБПэй",
+    "company": "Мир Plat.Form (НСПК)",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 198,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130963",
+    "title": "Архитектор решений",
+    "company": "Банк ПСБ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 199,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137267",
+    "title": "Java-разработчик",
+    "company": "Альфа-Банк",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 200,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000126492",
+    "title": "Java-программист (ПСБ ЛАБ)",
+    "company": "Банк ПСБ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 201,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000126489",
+    "title": "Программист Java",
+    "company": "Банк ПСБ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 202,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000126480",
+    "title": "Java developer (Online banking)",
+    "company": "Банк ПСБ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 203,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136884",
+    "title": "Тестировщик (Auto QA)",
+    "company": "Hoff Tech",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 204,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137941",
+    "title": "Системный аналитик (брокерское направление)",
+    "company": "Совкомбанк Технологии",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 205,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137938",
+    "title": "QA Automation engineer Java",
+    "company": "beeline",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 206,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137928",
+    "title": "Технический руководитель направления",
+    "company": "Газпром ID",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 207,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136488",
+    "title": "Разработчик на Java/Kotlin в Яндекс HR Tech",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 208,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000124236",
+    "title": "QA Automation (Web)/ VK ID",
+    "company": "VK",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 209,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136478",
+    "title": "Senior Java Developer",
+    "company": "ЛАНИТ",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 210,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136476",
+    "title": "Старший backend-разработчик в Яндекс Контест (Kotlin/Java)",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 211,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136475",
+    "title": "Разработчик на Python в Яндекс Фемиду",
+    "company": "Яндекс",
+    "description": "",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2024-02-06"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 212,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000138034",
+    "title": "Разработчик Python",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 213,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137869",
+    "title": "SDET Python (Sandbox)",
+    "company": "Лаборатория Касперского",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 214,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137862",
+    "title": "SDET Python (Апротех)",
+    "company": "Лаборатория Касперского",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 215,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000135545",
+    "title": "Python developer",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 216,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000138031",
+    "title": "Разработчик Python ( ETL)",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 217,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000138212",
+    "title": "Python developer",
+    "company": "Частный рекрутер Ковальская Наташа",
+    "description": "от 1200 до 1800 $",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 218,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92897469?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Data analytic",
+    "company": "Алабуга. Human Resources ",
+    "description": "от 160 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 219,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92892699?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Data analytic",
+    "company": "Алабуга. Human Resources ",
+    "description": "от 160 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 220,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92912715?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA аutomation / Наставник по автотестированию (Java)",
+    "company": "Таранюк Виталий Геннадьевич",
+    "description": "42 000 – 84 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 221,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92912737?query=python&hhtmFrom=vacancy_search_list",
+    "title": "QA аutomation / Наставник по автотестированию (Java)",
+    "company": "Таранюк Виталий Геннадьевич",
+    "description": "42 000 – 84 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-08"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 222,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000138400",
+    "title": "Frontend Python-разработчик",
+    "company": "ДАЛЕЕ",
+    "description": "от 250 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 223,
+  "fields": {
+    "url": "https://belgorod.hh.ru/vacancy/92937261?query=python&hhtmFrom=vacancy_search_list",
+    "title": "Data Scientist (Senior) в Южно-Сахалинск",
+    "company": "Сахалин - Остров Возможностей",
+    "description": "278 400 – 278 400 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 224,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130834",
+    "title": "Разработчик Python",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 225,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000134911",
+    "title": "Python Developer",
+    "company": "Sitronics Group",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 226,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000132498",
+    "title": "Python разработчик",
+    "company": "Онлайн-кинотеатр Иви",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 227,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000129479",
+    "title": "Python Developer",
+    "company": "Лаборатория Касперского",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 228,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136838",
+    "title": " Python разработчик",
+    "company": "Sapiens solutions",
+    "description": "от 250 000 до 350 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 229,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000130813",
+    "title": "Python разработчик",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 230,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137337",
+    "title": "Python Developer",
+    "company": "Go Ahead",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 231,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000124873",
+    "title": "Разработчик Python",
+    "company": "ИнфоТеКС",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 232,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000119842",
+    "title": "Python-разработчик",
+    "company": "VK",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 233,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000121815",
+    "title": "Разработчик Python",
+    "company": "ИнфоТеКС",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 234,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000137359",
+    "title": "Python Developer",
+    "company": "Greenwich",
+    "description": "до 150 000 ₽",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 235,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136679",
+    "title": "Python Developer",
+    "company": "eLama﻿",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 236,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136079",
+    "title": "Разработчик Python",
+    "company": "Bell Integrator",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 237,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000136801",
+    "title": "Python разработчик",
+    "company": "СберМедИИ",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 238,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000126123",
+    "title": "Senior Python (Django) Developer",
+    "company": "Группа «Самолет»",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 239,
+  "fields": {
+    "url": "https://career.habr.com/vacancies/1000127158",
+    "title": "Python разработчик",
+    "company": "TINKOFF",
+    "description": "",
+    "city": 2,
+    "language": 1,
+    "timestamp": "2024-02-11"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 1,
+  "fields": {
+    "timestamp": "2024-02-06",
+    "data": "[{\"url\": \"https://hh.ru/search/vacancy?from=suggest_post&ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&L_save_area=true&customDomain=1&area=1&text=Java\", \"title\": \"Div does not exists\"}, {\"url\": \"https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1\", \"title\": \"Div does not exists\"}]"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 2,
+  "fields": {
+    "timestamp": "2024-02-10",
+    "data": "{\"user_data\": [{\"city\": \"city\", \"language\": \"language\", \"email\": \"email\"}, {\"city\": \"city1\", \"language\": \"language1\", \"email\": \"email1\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"language\": \"Scola\", \"email\": \"dimka77783@mail.ru\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"language\": \"Scola\", \"email\": \"dimka77783@mail.ru\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"language\": \"Scola\", \"email\": \"dimka77783@mail.ru\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"language\": \"Scola\", \"email\": \"dimka77783@mail.ru\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"email\": \"dimka77783@mail.ru\", \"language\": \"Scola\"}, {\"city\": \"\\u041a\\u0443\\u0440\\u0441\\u043a\", \"email\": \"dimka77783@mail.ru\", \"language\": \"Scola\"}], \"errors\": [{\"url\": \"https://hh.ru/search/vacancy?from=suggest_post&ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&L_save_area=true&customDomain=1&area=1&text=Java\", \"title\": \"Div does not exists\"}, {\"url\": \"https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1\", \"title\": \"Div does not exists\"}]}"
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 2,
+    "language": 1,
+    "url_data": "{\"work_hh\": \"https://belgorod.hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&enable_snippets=false&area=17&text=python&L_save_area=true&customDomain=1\", \"work_habr\": \"https://career.habr.com/vacancies?q=python&l=1&type=all\"}"
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 3,
+  "fields": {
+    "city": 3,
+    "language": 2,
+    "url_data": "{\"work_hh\": \"https://hh.ru/search/vacancy?from=suggest_post&ored_clusters=true&hhtmFrom=vacancy_search_list&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=false&L_save_area=true&customDomain=1&area=1&text=Java\", \"work_habr\": \"https://career.habr.com/vacancies?locations[]=c_678&skills[]=1012&type=all\"}"
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$ZM6tgyGUWjWRBPHms2YUi5$3+DLMqBzmTelZ+NI+GC/wUBR98t57Txko6OMpHIgwIs=",
+    "last_login": "2024-02-11T19:55:38.513Z",
+    "email": "dimka77783@mail.ru",
+    "is_active": true,
+    "is_admin": true,
+    "city": 2,
+    "language": 1,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$2FgBsllXTSDUgpNjwvMPmt$T84IX5GWaqaAjcwT+ulJ20FQGisHFfxE2iU00v5K8oU=",
+    "last_login": null,
+    "email": "zx3@mail.ru",
+    "is_active": true,
+    "is_admin": false,
+    "city": 3,
+    "language": 2,
+    "send_email": false
+  }
+}
+]
