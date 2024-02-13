@@ -37,7 +37,7 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['92.63.178.110', '2531032-yo82697.twc1.net']
 
 
 # Application definition
