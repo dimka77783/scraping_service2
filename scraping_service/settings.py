@@ -38,7 +38,7 @@ SECRET_KEY = SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-SRF_TRUSTED_ORIGINS = ['*']
+SRF_TRUSTED_ORIGINS = ['2531032-yo82697.twc1.net']
 
 # Application definition
 
