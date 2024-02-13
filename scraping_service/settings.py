@@ -38,7 +38,7 @@ SECRET_KEY = SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+SRF_TRUSTED_ORIGINS = ['*']
 
 # Application definition
 
