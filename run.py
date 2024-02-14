@@ -5,12 +5,13 @@ from django.core.mail import EmailMultiAlternatives
 from django.contrib.auth import get_user_model
 
 
-proj = os.path.dirname(os.path.abspath('manage.py'))
-sys.path.append(proj)
-os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scraping_service.settings")
 
-
+import django
 django.setup()
+
+
+
 
 from scraping.models import Vacancy, Error, Url
 from scraping_service.settings import EMAIL_HOST_USER
