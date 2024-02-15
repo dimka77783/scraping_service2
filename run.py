@@ -1,8 +1,10 @@
+import asyncio
+import codecs
 import os, sys
-import django
-import datetime
-from django.core.mail import EmailMultiAlternatives
+import datetime as dt
+
 from django.contrib.auth import get_user_model
+from django.db import DatabaseError
 
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "scraping_service.settings")
@@ -12,81 +14,77 @@ django.setup()
 
 
 
+from scraping.parsers import *
 
 from scraping.models import Vacancy, Error, Url
-from scraping_service.settings import EMAIL_HOST_USER
-ADMIN_USER = EMAIL_HOST_USER
-today = datetime.date.today()
-subject =f'Рассылка вакансий за {today}'
-text_content = f'Рассылка вакансий за {today}'
-from_email = EMAIL_HOST_USER
-empty = '<h2> к сожалению на сегодня по Вашим предпочтениям данных нет</h2>'
-today = datetime.date.today()
+
 
 User = get_user_model()
-qs = User.objects.filter(send_email=True).values('city', 'language', 'email')
-users_dict = {}
-for i in qs:
-    users_dict.setdefault((i['city'], i['language']), [])
-    users_dict[(i['city'], i['language'])].append(i['email'])
-if users_dict:
-    params = {'city_id__in': [], 'language_id__in': []}
-    for pair in users_dict.keys():
-        params['city_id__in'].append(pair[0])
-        params['language_id__in'].append(pair[1])
-    qs = Vacancy.objects.filter(**params, timestamp=today).values()
-    vacancies = {}
-    #for i in qs:
-    #    vacancies.setdefault((i['city_id'], i['language_id']), [])
-    #    vacancies[(i['city_id'], i['language_id'])].append(i)
-    #for keys, emails in users_dict.items():
-    #    rows = vacancies.get(keys, [])
-    #    html = ''
-    #    for row in rows:
-    #        html += f'<h5><a href="{row["url"] }">{ row["title"] }</a></h5>'
-    #       html += f'<p>{row["description"]}</p>'
-    #        html += f'<p>{row["company"]}</p><br><hr>'
-    #    _html = html if html else empty
-    #    for email in emails:
-    #        to = email
-    #        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-    #        msg.attach_alternative(_html, "text/html")
-    #        msg.send()
-qs = Error.objects.filter(timestamp=today)
-subject = ''
-text_content = ''
-to = ADMIN_USER
-_html = ''
-if qs.exists():
-    error = qs.first()
-    data = error.data.get('errors', [])
-    for i in data:
-        _html += f'<p><a href= "{ i["url"] }">Error: { i["title"] }</a></p><br>'
-    subject = f"Ошибки скрапинга{today}"
-    text_content = "Ошибки скрапинга"
-    data = error.data.get('user_data')
-    if data:
-        _html += '<hr>'
-        _html += '<h2>Пожелания пользователей</h2>'
-        for i in data:
-            _html += f'<p>Город: {i["city"]}, Специальность:{i["language"]}, Имейл:{i["email"]}</p><br>'
-        subject = f"Пожелания пользователей{today}"
-        text_content = "Пожелания пользователей"
+
+parsers = (
+    (work_hh, 'work_hh'),
+    (work_habr, 'work_habr')
+)
+
+jobs, errors = [], []
+
+
+def get_settings():
+    qs = User.objects.filter(send_email=True).values()
+    settings_lst = set((q['city_id'], q['language_id']) for q in qs)
+    return settings_lst
 
 
 
-qs = Url.objects.all().values('city', 'language')
-urls_dict = {(i['city'], i['language']): True for i in qs}
-urls_errors = ''
-for keys in urls_dict.keys():
-    if keys in urls_dict:
-        if keys[0] and keys[1]:
-            urls_errors += f'<p>Для города:{keys[0]} и ЯП: {keys[1]} отсутсвуют урлы</p><br/>'
-if urls_errors:
-    subject += ' Отсутсвующие урлы'
-    _html += urls_errors
+def get_urls(_settings):
+    qs = Url.objects.all().values()
+    url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
+    urls = []
+    for pair in _settings:
+        if pair in url_dict:
+            tmp = {}
+            tmp['city'] = pair[0]
+            tmp['language'] = pair[1]
+            url_data = url_dict.get(pair)
+            if url_data:
+                tmp['url_data'] = url_dict.get(pair)
+                urls.append(tmp)
+    return urls
 
-if subject:
-    msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-    msg.attach_alternative(_html, "text/html")
-    msg.send()
+
+async def main(value):
+    func, url, city, language = value
+    job, err = await loop.run_in_executor(None, func, url, city, language)
+    errors.extend(err)
+    jobs.extend(job)
+
+settings = get_settings()
+url_list = get_urls(settings)
+
+loop = asyncio.get_event_loop()
+tmp_tasks = [(func, data['url_data'][key], data['city'], data['language'])
+             for data in url_list
+             for func, key in parsers]
+
+if tmp_tasks:
+    tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
+    loop.run_until_complete(tasks)
+    loop.close()
+
+for job in jobs:
+    v = Vacancy(**job)
+    try:
+        v.save()
+    except DatabaseError:
+        pass
+if errors:
+    qs = Error.objects.filter(timestamp=dt.date.today())
+    if qs.exists():
+        err = qs.first()
+        err.data.update({'errors': errors})
+        err.save()
+    else:
+        er = Error(data=f'errors:{errors}').save()
+
+ten_days_ago = dt.date.today() - dt.timedelta(10)
+Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
