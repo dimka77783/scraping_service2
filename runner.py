@@ -9,4 +9,4 @@ schedule.every(1).minutes.do(job)
  
 while True:
     schedule.run_pending()
-    time.slep(1) 
+    time.sleep(1) 
